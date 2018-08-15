@@ -1,0 +1,29 @@
+{
+  "name": "png-scale",
+  "version": "1.0.0",
+  "description": "PNG scaling utility, written in pure JS for Node.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jjstiff/png-scale.git"
+  },
+  "keywords": [
+    "PNG",
+    "scale"
+  ],
+  "author": "JJ Stiff",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jjstiff/png-scale/issues"
+  },
+  "homepage": "https://github.com/jjstiff/png-scale#readme",
+  "dependencies": {
+    "pngjs": "^3.3.3"
+  }
+}
