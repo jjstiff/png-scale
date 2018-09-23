@@ -1,6 +1,6 @@
 {
   "name": "png-scale",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "PNG scaling for Node.js depending only on pngjs.",
   "main": "index.js",
   "directories": {
