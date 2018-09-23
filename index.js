@@ -50,7 +50,10 @@ var scale = function(inStream, config, cb)
       dW = Math.round(dH*sW/sH);
     }
 
-    var writeStream = new PNG({width: dW + dX, height: dH + dY});
+    var options = config && config.PNG || {};
+    options.width = dW + dX;
+    options.height = dH + dY;
+    var writeStream = new PNG(options);
     method(this, writeStream, sX, sY, sW, sH, dX, dY, dW, dH)
     cb(null, writeStream.pack());
   });

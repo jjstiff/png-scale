@@ -68,6 +68,13 @@ Scale proportionally to size.
 var config = {dst:{height:"100px"}};
 ```
 
+### Specify pngjs.PNG options.
+
+Scale proportionally and output as colorType:0 (grayscale).
+```js
+var config = {dst:{width:"50%"},PNG:{colorType:0}};
+```
+
   
 ## Additional Resources
 
